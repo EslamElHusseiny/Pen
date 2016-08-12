@@ -1,9 +1,10 @@
 FROM centos:7
-MAINTAINER Eslam ElHusseiny <eslamh@cakesolutions.net>
+MAINTAINER Eslam ElHusseiny <eslam.husseiny@gmail.com>
 
+ENV PEN_VERSION="0.33.1"
 WORKDIR /tmp
 RUN yum install -y gcc wget make
-RUN wget http://siag.nu/pub/pen/pen-0.32.0.tar.gz
+RUN wget http://siag.nu/pub/pen/pen-${PEN_VERSION}.tar.gz
 RUN tar zxvf pen-0.32.0.tar.gz
 WORKDIR /tmp/pen-0.32.0
 RUN ./configure

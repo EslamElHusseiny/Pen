@@ -21,4 +21,6 @@ docker run -d --name MyLB -e TCP_PORT=8080 -e TCP_BACKENDS='1.2.3.4 1.1.1.1' -e 
 
 TODO: write a description.
 
-[![](https://badge.imagelayers.io/eslam/pen:latest.svg)](https://imagelayers.io/?images=eslam/pen:latest 'Get your own badge on imagelayers.io')
+[![](https://images.microbadger.com/badges/version/eslam/pen.svg)](http://microbadger.com/images/eslam/pen "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/license/eslam/pen.svg)](http://microbadger.com/images/eslam/pen "Get your own license badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/eslam/pen.svg)](http://microbadger.com/images/eslam/pen "Get your own image badge on microbadger.com")
